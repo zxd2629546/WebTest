@@ -38,8 +38,8 @@ public class HtmlUnitTest {
         HtmlInput pwd = (HtmlInput)page.getElementById("pwd");
         HtmlButton button = (HtmlButton) page.getElementById("sb");
         
-        username.setValueAttribute("964050436@qq.com");
-        pwd.setValueAttribute("43102319940614241x");
+        username.setValueAttribute("---");
+        pwd.setValueAttribute("---");
         
         HtmlPage page2 = button.click();
         System.out.println(wc.getCookieManager().getCookies());
